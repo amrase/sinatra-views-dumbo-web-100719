@@ -16,5 +16,5 @@ class App < Sinatra::Base
 	
 	get '/info' do
 	  '200'
-	  
+	  erb :index
 end
