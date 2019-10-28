@@ -10,6 +10,7 @@ class App < Sinatra::Base
   end  
 	get '/' do
 	  '200'
+	  'Hello World'
 
 	end
 end
