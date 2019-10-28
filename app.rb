@@ -13,4 +13,8 @@ class App < Sinatra::Base
 	  'Hello World'
 
 	end
+	
+	get '/info' do
+	  '200'
+	  
 end
