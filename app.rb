@@ -6,9 +6,9 @@ class App < Sinatra::Base
     set :views , "app/views"
     set :public_dir, "public"
     
-    erb :index
+    
   end  
 	get '/' do
-		
+		erb :index
 	end
 end
